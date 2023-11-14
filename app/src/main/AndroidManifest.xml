@@ -170,7 +170,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <!-- https://developer.android.com/training/app-links/deep-linking -->
-                <data android:host="@string/oppiaServerDomain" />
+                <data android:host="@string/oppiaServerHost" />
                 <data android:pathPrefix="/view" />
                 <data android:scheme="https" />
                 <data android:scheme="http" />
